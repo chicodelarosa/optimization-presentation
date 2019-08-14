@@ -13,7 +13,7 @@ problem.types[:] = Real(-10, 10)
 # Sets the problem function instance to our objective function
 problem.function = schaffer
 
-# Uses the Non-dominated Selection Genetic Algorithm 2 with 50 particles
+# Uses the Non-dominated Sorting Genetic Algorithm 2 with 50 particles
 # to optimize our problem
 algorithm = NSGAII(problem, population_size = 50)
 # algorithm = SPEA2(problem, population_size = 50)
