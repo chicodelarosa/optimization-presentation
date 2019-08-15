@@ -8,8 +8,8 @@ a1 = LpVariable("Additive 1", 0, None, LpContinuous)
 a2 = LpVariable("Additive 2", 0, None, LpContinuous)
 
 # Sets the objective function
-f = 7.5 * a1 + 5.2 * a2
-# f = 1.2 * a1 + 2.1 * a2
+# f = 7.5 * a1 + 5.2 * a2
+f = 1.2 * a1 + 2.1 * a2
 
 # Adds the objective function to the problem object
 problem += f, "Speed to maximize"
